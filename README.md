@@ -7,6 +7,8 @@ These tools include predicates, item modifiers and a bunch of other things
 that can build ontop of each other to create much more detailed creations. Alongside this,
 I will make features such as 'command dictionaries'. These allow you to store commands in a 
 storage unit for loading into command blocks by the use of functions.
+
+
 -------------------------------------
 HERE ARE THE CHANGES IN THIS RELEASE:
 -------------------------------------
