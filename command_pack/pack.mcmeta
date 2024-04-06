@@ -1,0 +1,28 @@
+{
+    "pack": {
+        "pack_format": 26,
+        "supported_formats": [
+            38,
+            26
+        ],
+        "description": "The main data pack for TheKnytemayor's Command Pack."
+    },
+    "overlays": {
+        "entries": [
+            {
+                "formats": {
+                    "min_inclusive": 26,
+                    "max_inclusive": 38
+                },
+                "directory": "subpacks/macro_tools"
+            },
+            {
+                "formats": {
+                    "min_inclusive": 26,
+                    "max_inclusive": 38
+                },
+                "directory": "subpacks/command_dictionaries"
+            }
+        ]
+    }
+}

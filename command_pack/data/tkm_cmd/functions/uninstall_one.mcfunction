@@ -1,0 +1,1 @@
+$datapack disable "file/$(pack_name)"
