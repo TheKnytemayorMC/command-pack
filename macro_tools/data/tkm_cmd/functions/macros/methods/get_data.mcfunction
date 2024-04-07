@@ -1,0 +1,1 @@
+$tellraw @p [{"text":"[TheKnytemayor CMD]> ", "color":"dark_purple"},{"text":"'extra_data' is for any data you want to add without disturbing this data pack's processes. ","color": "aqua"},{"text": "GET DATA","color": "yellow","bold": true,"clickEvent": {"action": "run_command","value": "/data get storage tkm_cmd:components components[{name:\"$(name)\"}]"}}]

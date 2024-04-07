@@ -1,0 +1,2 @@
+$data modify storage tkm_cmd:components components[{name:"$(name)"}].values.command set value "$(command) "
+$tellraw @p [{"text":"[TheKnytemayor CMD]> ", "color":"dark_purple"},{"text":"Slot '$(name)'`s command has been updated","color":"aqua"}]

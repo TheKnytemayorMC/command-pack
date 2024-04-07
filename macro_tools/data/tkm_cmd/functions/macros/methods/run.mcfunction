@@ -1,0 +1,2 @@
+$function tkm_cmd:macros/components/$(components) with storage tkm_cmd:components components[{name:"$(name)"}].values
+$tellraw @p [{"text":"[TheKnytemayor CMD]> ", "color":"dark_purple"},{"text":"Ran command '$(name)'. Please note that this message does not guarantee a desired output.","color": "aqua"}]

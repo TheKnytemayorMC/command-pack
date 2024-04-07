@@ -1,0 +1,1 @@
+$function tkm_cmd:macros/components/$(components) with storage tkm_cmd:components components[{name:"$(name)"}].values

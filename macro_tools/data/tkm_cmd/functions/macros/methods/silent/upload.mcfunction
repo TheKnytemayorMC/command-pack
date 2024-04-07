@@ -1,0 +1,1 @@
+$data modify storage tkm_cmd:components components append value {name:"$(name)",extra_data:{},values:{}}

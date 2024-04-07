@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 26,
+        "supported_formats": [
+            37,
+            26
+        ],
+        "description": "Adds helpful predicate presets as a bonus to the full pack."
+    }
+}

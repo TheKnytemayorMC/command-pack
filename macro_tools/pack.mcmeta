@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 26,
+        "description": "Adds various functions to allow for in-game function macro use. View the change-logs on TheKnytemayor's GitHub repository 'theknytemayor/command-pack'.",
+        "supported_formats": [
+            26,
+            38
+        ]
+    }
+}

@@ -1,0 +1,3 @@
+$tellraw @p [{"text":"[TheKnytemayor CMD]> ", "color":"dark_purple"},{"text":"Command slot with ID ","color": "aqua"},{"text": "$(commandID) ","italic": true},{"text": " has been deleted. Re-create this command slot by using the command ","italic": false},{"text": " /function theknytemayor:experiments/command_dictionary/save_new {commandID:\"$(commandID)\", command: \"","color": "green"},{"nbt": "commandList.$(folder)[{id:\"$(commandID)\"}].command","storage": "tkm:command_dictionary"},{"text": "\", auto: \"","color":"green"},{"nbt": "commandList.$(folder)[{id:\"$(commandID)\"}].auto","storage": "tkm:command_dictionary","color":"green"},{"text": "\"}","color":"green"}]
+
+$data remove storage tkm:command_dictionary commandList.$(folder)[{id:"$(commandID)"}]

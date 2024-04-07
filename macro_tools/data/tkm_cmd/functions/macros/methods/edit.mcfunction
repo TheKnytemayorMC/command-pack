@@ -1,0 +1,2 @@
+$data modify storage tkm_cmd:components components[{name:"$(name)"}].values.$(var_num) set $(method) $(source) $(source_path)
+$tellraw @p [{"text":"[TheKnytemayor CMD]> ", "color":"dark_purple"},{"text":"Slot '$(name)' has been updated.The NBT tag 'extra_data' is for any data you want to add without disturbing this data pack's processes. ","color": "aqua"}]

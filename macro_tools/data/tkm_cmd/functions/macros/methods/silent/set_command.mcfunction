@@ -1,0 +1,1 @@
+$data modify storage tkm_cmd:components components[{name:"$(name)"}].values.command set value "$(command) "
